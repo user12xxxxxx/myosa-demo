@@ -2,14 +2,15 @@
 publishDate: 2026-05-14
 title: Your Project Title
 excerpt: Short 1–2 line description of your project
-image: cover.jpeg
+image: cover.jpg
 tags:
   - myosa
   - wi-fi-communication
   - Trng
 ---
 
->“One-line project tagline”
+>“One-line project tagline.”
+
 ---
 
 ## Acknowledgements
@@ -25,7 +26,7 @@ We also acknowledge the guidance and support provided by **Rupam Sir** for his g
 
 ### **Images**
 <p align="center">
-  <img src="/cover.jpeg" width="800" style="border-radius": 15px><br/>
+  <img src="cover.jpg" width="800"><br/>
   <i>Black Box</i>
 </p>
 
