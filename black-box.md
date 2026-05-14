@@ -25,7 +25,7 @@ We also acknowledge the guidance and support provided by **Rupam Sir** for his g
 
 ### **Images**
 <p align="center">
-  <img src="cover.jpeg" width="800" style="border-radius: 15px"><br/>
+  <img src="/cover.jpeg" width="800" style="border-radius": 15px><br/>
   <i>Black Box</i>
 </p>
 
