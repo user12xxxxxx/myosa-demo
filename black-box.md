@@ -81,21 +81,30 @@ To gather unpredictable digital data, a 45 cm x 45 cm box with a rough mirrored 
 
 ## Tech Stack
 
-- **Core Controller** - MYOSA Motherboard
+- **MYOSA Motherboard**
 - **Actuators**
   - 5V DC Motor (LED Spinner),
   - 5V DC Motor (Particle Fan),
   - OLED Display
 - **Sensors**
   - APDS9960 (RGB Sensor)
-  - **PMS5003** - (Particle Sensor)
-  - **Analog Hardware** - IRF540N MOSFET
+  - PMS5003 - (Particle Sensor)
+  - Analog Hardware - IRF540N MOSFET
+- **Arduino IDE**
+- **Software**
 ---
+
 ## File Stucture
 ---
 ## Requirements / Installation
 
 ### **Hardware Requirements**
+- MYOSA Mother Board
+- MYOSA OLED Display
+- MYOSA Accelerometer/Gyroscope Module
+- MYOSA Light/Proximity Module
+- Particle Sensor
+- MOSFET
 
 ### **Software Requirements**
 ---
