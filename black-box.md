@@ -1,13 +1,4 @@
----
 publishDate: 2026-05-14
-title: Your Project Title
-excerpt: Short 1–2 line description of your project
-image: cover.jpg
-tags:
-  - myosa
-  - wi-fi-communication
-  - Trng
----
 # Ankaja - A Hardware based Random Number Generator using MYOSA kit
 ![IoT](https://img.shields.io/badge/IoT-blue) ![Rust](https://img.shields.io/badge/Factory--Safety-orange) ![MOSFET](https://img.shields.io/badge/MOSFET-green) ![MQTT](https://img.shields.io/badge/MQTT-purple) ![MYOSA-kit](https://img.shields.io/badge/MYOSA-kit-red) ![Randomness](https://img.shields.io/badge/Randomness-61DAFB)
 >“One-line project tagline.”
