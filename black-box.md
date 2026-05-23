@@ -56,10 +56,10 @@ We also acknowledge the guidance and support provided by our mentor **Dr. Rupam 
 
 ### **1. Analog Noise Generator Circuit**
 
-Electronic noise in MOSFETs is naturally stochastic.   
-- Circuit Design: The Drain (D) terminal is connected to +5V using a 2kΩ pull-up resistor.
-- Input: A 1kHz frequency pulse signal with an amplitude of 4V is applied at the Gate (G).
-- Output: The resulting noise signal is harvested from the Drain terminal and fed directly to the 12-bit ADC of the MYOSA motherboard.
+Electronic noise in MOSFETs is naturally stochastic.
+Circuit Design: The Drain (D) terminal is connected to +3.3V using a 2kΩ pull-up resistor. Input: A random value from 0 to 255 using dacWrite(25, esp_random() & 0xFF); function is applied at the Gate (G) from the DAC pin 25 of MYOSA Motherboard through a small gate resistor 82 ohm.
+Output: The resulting random signal is harvested from the Drain terminal and fed directly to the 12-bit ADC pin 32 of the MYOSA motherboard.
+
 
 ### **2. Chaotic Hardware Environment**
 
